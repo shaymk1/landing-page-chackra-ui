@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap');
+
+
+
+
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+body{
+  background-image: url('./assets/warrior.jpeg') !important;
+  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Press Start 2P',  'VT323';
+  
+}
+ 
+
+
+
+.overlay{
+  opacity: 0.85;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  top:0;
+  left: 0;
+  position: fixed;
+}
+
